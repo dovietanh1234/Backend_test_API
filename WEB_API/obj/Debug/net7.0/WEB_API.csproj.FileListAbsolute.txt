@@ -78,3 +78,4 @@ D:\Aptech_semester_3\ASP_Project\Project_sem3\Backend\WEB_API\WEB_API\bin\Debug\
 D:\Aptech_semester_3\ASP_Project\Project_sem3\Backend\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Aptech_semester_3\ASP_Project\Project_sem3\Backend\WEB_API\WEB_API\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Aptech_semester_3\ASP_Project\Project_sem3\Backend\WEB_API\WEB_API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\Aptech_semester_3\ASP_Project\Project_sem3\Backend\WEB_API\WEB_API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

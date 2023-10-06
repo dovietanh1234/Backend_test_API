@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WEB_API.DTOs;
 using WEB_API.Entities;
@@ -62,6 +63,7 @@ namespace WEB_API.Controllers
 		}
 
 		[HttpPost]
+		[Authorize]
 		public IActionResult Create(CreateCategory model)
 		{
 			if ( ModelState.IsValid )

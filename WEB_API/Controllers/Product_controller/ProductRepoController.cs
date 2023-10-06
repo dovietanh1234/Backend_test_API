@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Collections.Generic;
 using WEB_API.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WEB_API.Controllers.Product_controller
 {
@@ -89,6 +90,7 @@ namespace WEB_API.Controllers.Product_controller
 
 
 		[HttpPost]
+		[Authorize]
 		public IActionResult AddP(createProductModel product)
 		{
 			try
