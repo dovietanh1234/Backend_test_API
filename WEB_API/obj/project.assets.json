@@ -767,6 +767,39 @@
           }
         }
       },
+      "PayPalCheckoutSdk/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "PayPalHttp": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/PayPalCheckoutSdk.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PayPalCheckoutSdk.dll": {}
+        }
+      },
+      "PayPalCoreSDK/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/net451/PayPalCoreSDK.dll": {}
+        },
+        "runtime": {
+          "lib/net451/PayPalCoreSDK.dll": {}
+        }
+      },
+      "PayPalHttp/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PayPalHttp-Dotnet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PayPalHttp-Dotnet.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -2535,6 +2568,46 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "PayPalCheckoutSdk/1.0.4": {
+      "sha512": "4fsOPj6SOJurbVf5ANg7NQ5TNvSYmtngf3dpJN11xEk6BP+5Rn6OcaaTbUx+bVnnYmgaoe5LbRZe52QpAjuwqg==",
+      "type": "package",
+      "path": "paypalcheckoutsdk/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PayPalCheckoutSdk.dll",
+        "paypalcheckoutsdk.1.0.4.nupkg.sha512",
+        "paypalcheckoutsdk.nuspec"
+      ]
+    },
+    "PayPalCoreSDK/1.7.1": {
+      "sha512": "hGOLo3X2vgOpOWJI91+vlBgr/Dchk3xZAF0bdIpKiAwjlRKMjzSC4zuT1eGwmQ8uVL1IaGBZwNGklyRHDniYlQ==",
+      "type": "package",
+      "path": "paypalcoresdk/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/PayPalCoreSDK.dll",
+        "lib/net35/PayPalCoreSDK.dll",
+        "lib/net40/PayPalCoreSDK.dll",
+        "lib/net45/PayPalCoreSDK.dll",
+        "lib/net451/PayPalCoreSDK.dll",
+        "paypalcoresdk.1.7.1.nupkg.sha512",
+        "paypalcoresdk.nuspec"
+      ]
+    },
+    "PayPalHttp/1.0.1": {
+      "sha512": "Jlg8e9Egwxk+sfkIoGIkjQS+uxGNIOnY6NbUkWXKJiEGGqryeV9bIRNtSfjSgs/g02JcIQbKRFQW+8amtSo3ig==",
+      "type": "package",
+      "path": "paypalhttp/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PayPalHttp-Dotnet.dll",
+        "paypalhttp.1.0.1.nupkg.sha512",
+        "paypalhttp.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.5.0": {
       "sha512": "FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
       "type": "package",
@@ -3526,6 +3599,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
+      "PayPalCheckoutSdk >= 1.0.4",
+      "PayPalCoreSDK >= 1.7.1",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3600,6 +3675,14 @@
             "target": "Package",
             "version": "[7.0.11, )"
           },
+          "PayPalCheckoutSdk": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          },
+          "PayPalCoreSDK": {
+            "target": "Package",
+            "version": "[1.7.1, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.5.0, )"
@@ -3627,5 +3710,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PayPalCoreSDK 1.7.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PayPalCoreSDK",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

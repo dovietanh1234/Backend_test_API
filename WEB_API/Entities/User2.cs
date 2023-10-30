@@ -20,4 +20,6 @@ public partial class User2
     public string Password { get; set; } = null!;
 
     public string? Role { get; set; }
+
+    public virtual ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
 }

@@ -63,7 +63,7 @@ namespace WEB_API.Controllers
 		}
 
 		[HttpPost]
-		[Authorize]
+		[Authorize(Roles = "ADMIN")]
 		public IActionResult Create(CreateCategory model)
 		{
 			if ( ModelState.IsValid )

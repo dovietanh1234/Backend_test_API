@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NHLTUSDYpUhw2HR3ms2z/O/3e5F7P+4gsnilaChkGQ5432VolVmE7OZbtJaxXVAy1IvBCBMmxfDgLPpHdSTL0Q==",
+  "dgSpecHash": "Nxg2rhqEkRm7rdzWMDbvUH5OeRbkOgSGyyaar2MD+D78dxqSsU8rfCYHJ+/rQ9FmvOr9PmY/zvHRGrt0T38XHw==",
   "success": true,
   "projectFilePath": "D:\\Aptech_semester_3\\ASP_Project\\Project_sem3\\Backend\\WEB_API\\WEB_API\\WEB_API.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,9 @@
     "C:\\Users\\Admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\paypalcheckoutsdk\\1.0.4\\paypalcheckoutsdk.1.0.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\paypalcoresdk\\1.7.1\\paypalcoresdk.1.7.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\paypalhttp\\1.0.1\\paypalhttp.1.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
@@ -77,5 +80,16 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PayPalCoreSDK 1.7.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PayPalCoreSDK",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
